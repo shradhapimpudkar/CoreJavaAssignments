@@ -40,7 +40,9 @@ public class Person implements Comparable<Person>,Comparator<Person>{
 		this.weight = weight;
 	}
 
-	private String name, height_in_inches,  weight;
+	private String name;
+	private String height_in_inches;
+	private String weight;
 	
 	public int compare(Person o1, Person o2) {
 		if(o1.getName().compareTo(o2.getName()) == -1)
